@@ -1,0 +1,81 @@
+/* CesTick 1.1 — ajuste editorial: interfaz sobria, sin brillos ni decoración artificial. */
+:root{font-family:Inter,'DM Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;color:#17263e;background:#f6f8fb}
+body{background:#f6f8fb}
+h1,h2,h3,.brand-word{font-family:Inter,'DM Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;letter-spacing:-.025em}
+h1{letter-spacing:-.035em}
+p{color:#65758d;line-height:1.55}
+.sidebar{width:242px;padding:25px 14px 18px;border-color:#e5eaf0}
+.main-column{margin-left:242px;width:calc(100% - 242px)}
+.sidebar-brand{padding:2px 11px 29px}
+.brand-mark{border-radius:10px;background:#1e5dc1;box-shadow:none}
+.brand-spark{display:none}
+.brand-word{font-weight:750;letter-spacing:-.04em}
+.brand-word>span{color:#205ec4}
+.brand-word small{font-weight:500;color:#8493a7}
+.role-switch{border-radius:9px;background:#f2f5f9;margin-bottom:24px}
+.role-switch button{border-radius:7px;font-weight:650}
+.role-switch button.selected{box-shadow:none;border:1px solid #e1e8f1}
+.nav-label{letter-spacing:.095em;font-size:10px;color:#8796a7}
+.side-nav button{font-size:13px;font-weight:570;border-radius:8px;transition:background .15s,color .15s}
+.side-nav button.active{background:#edf3fb;color:#1d5cbd}
+.side-nav button.active:before{left:14px;height:18px;border-radius:3px;background:#1d5cbd}
+.side-help{border:1px solid #e0eaf5;background:#f5f9ff;border-radius:10px;padding:15px}
+.side-help>span{display:inline-flex;color:#2b66b7}
+.side-help b{color:#264668;font-weight:650}
+.topbar{height:68px;border-color:#e9edf2;padding:0 clamp(20px,3.25vw,52px)}
+.main-content{padding:34px clamp(20px,3.25vw,52px) 24px;max-width:1450px}
+.demo-status{color:#7b8999;font-weight:550}
+.demo-status span{background:#8aa3c5}
+.avatar{border-radius:50%;background:#eaf0f8;color:#3467a9}
+.eyebrow{font-size:10px;letter-spacing:.09em;font-weight:700;color:#4d719d}
+.welcome{min-height:212px;border-radius:12px;background:#194b8f;padding:30px 36px;box-shadow:none}
+.welcome:before,.welcome:after{display:none}
+.welcome .eyebrow{color:#b2d1f5;margin-bottom:13px}
+.welcome h1{font-size:clamp(25px,2.75vw,34px);font-weight:720;letter-spacing:-.028em;line-height:1.22}
+.welcome p{font-size:13px;color:#e1eaf7;max-width:475px}
+.welcome-illustration{width:215px;height:150px;min-width:215px;display:flex;align-items:center;justify-content:center}
+.welcome-receipt{width:172px;background:#fff;border:1px solid #dae2ee;border-radius:9px;padding:14px 15px 12px;color:#23466f;box-shadow:0 7px 18px #102d5540;transform:rotate(3deg);display:flex;flex-direction:column;gap:8px}
+.receipt-mini-icon{width:30px;height:30px;border-radius:7px;color:#1d5dbb;background:#edf4fc;display:grid;place-items:center}
+.receipt-mini-title{font-size:10px;font-weight:750;letter-spacing:-.01em}
+.receipt-mini-rule{height:1px;background:#e3e9f2}
+.receipt-mini-line{display:flex;justify-content:space-between;gap:12px}
+.receipt-mini-line i:first-child{height:5px;background:#d5deea;border-radius:2px;width:67%}
+.receipt-mini-line i:last-child{height:5px;background:#e6ebf3;border-radius:2px;width:22%}
+.receipt-mini-footer{font-size:9px;color:#4873a4;font-weight:650;display:flex;align-items:center;gap:5px}
+.home-metrics{gap:12px;margin:16px 0 35px}
+.metric,.feature-card,.list-panel,.quick-card,.panel,.upload-card,.product-card,.coupon-card,.store-pick,.mini-empty,.reward-highlight,.alert-card,.basket-row,.history-item{border-radius:10px;border-color:#e3e8ef;box-shadow:none}
+.metric{padding:19px;gap:6px}
+.metric-icon,.feature-icon,.transaction-icon,.quick-icon,.store-avatar{border-radius:8px}
+.metric-icon.lavender{background:#ecf2fa;color:#4674b4}
+.metric-icon.aqua{background:#eaf5f2;color:#2d8c77}
+.metric strong{font-size:24px;color:#1d2e47;letter-spacing:-.03em;font-family:inherit}
+.metric>span:nth-child(2){font-weight:550;color:#718199}
+.section-heading{margin:29px 0 15px}
+.section-heading h2{font-size:19px;font-weight:690;color:#20324c;letter-spacing:-.02em}
+.quick-grid{gap:12px}
+.quick-card{padding:17px 19px;transition:background .15s,border-color .15s;transform:none!important}
+.quick-card:hover,.product-card:hover{box-shadow:none;transform:none;border-color:#a8bfdc}
+.quick-card.primary{background:#205fbd;border-color:#205fbd}
+.quick-card.primary:hover{background:#164f9e}
+.quick-card b{font-weight:650}
+.feature-card,.panel{padding:22px}
+.button{border-radius:8px;font-weight:650;transition:background .15s,border-color .15s;box-shadow:none}
+.button.blue{background:#205fbd}.button.blue:hover{background:#174f9b}
+.button.subtle{background:#edf3fa;border-color:#e2eaf4;color:#225db1}
+.pill{border-radius:5px;letter-spacing:0;font-weight:650}
+.product-art{background:#f1f5fa;border:1px solid #e8edf3;border-radius:8px;filter:none}
+.product-card{transition:border-color .15s}
+.coupon-image{background:#eff4f9}
+.reward-highlight{background:#f2f6fc}
+.points-hero,.merchant-banner{border-radius:12px;background:#194b8f}
+.points-illustration,.merchant-banner-icon{opacity:.68;filter:none}
+.points-hero:before,.points-hero:after,.merchant-banner:before,.merchant-banner:after{display:none}
+.page-head h1{letter-spacing:-.032em}
+.notice{border-radius:8px}
+.field input,.field select,.field textarea,.search-input,.search-box input{border-radius:8px}
+.bottom-nav .scan-bubble{border-radius:12px;box-shadow:none;background:#205fbd}
+.modal{border-radius:12px}
+@media(max-width:1050px){.main-column{width:100%;margin-left:0}}
+@media(max-width:760px){.main-content{padding:21px 16px 95px}.topbar{height:60px;padding:0 16px}.welcome{min-height:185px;padding:24px;border-radius:10px}.welcome h1{font-size:25px}.welcome p{font-size:11px}.welcome-illustration{width:125px;min-width:125px;height:145px}.welcome-receipt{width:119px;padding:10px;gap:6px}.receipt-mini-title{font-size:8px}.receipt-mini-icon{width:25px;height:25px}.home-metrics{gap:9px;margin:14px 0 25px}.metric{padding:13px}.metric strong{font-size:19px}.section-heading{margin:26px 0 14px}.bottom-nav{box-shadow:none;border-color:#e3e8ef}}
+@media(max-width:470px){.main-content{padding-left:12px;padding-right:12px}.welcome{padding:20px;min-height:165px}.welcome h1{font-size:21px}.welcome p{font-size:10px}.welcome-illustration{min-width:84px;width:84px}.welcome-receipt{width:91px;padding:7px;gap:5px}.receipt-mini-title{font-size:7px}.receipt-mini-footer{font-size:7px}.receipt-mini-line i{height:4px!important}.metric strong{font-size:16px}.quick-card{padding:13px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important}}
